@@ -9,7 +9,7 @@
 **Idea Name:**
 
 ## Short Description
-In fire emergency situations that demand urgent action, any delay can mean loss of life and property. The restrictions brought about by COVID-19 onto physically deployed firefighters such as social distancing and even mask-wearing can cause inefficiencies which may hinder their response. If they even exacerbate the spread of the virus. 
+In fire emergency situations that demand urgent action, any delay can mean loss of life and property. The restrictions brought about by COVID-19 onto physically deployed firefighters such as social distancing and even mask-wearing can cause inefficiencies which may hinder their response. If they forsake these measures in these situations it may even exacerbate the spread of the virus. 
 
 Our idea is to reduce the need for physically deployed manpower to fire emergency situations by repurposing the SCDF Unmanned Firefighting Machine (UFM) to be deployed to fight the fire instead of humans. Through integration with AI and IoT technology and a synergestic combination with from the SCDF Unmanned Aerial Vehicle (UAV), the UFM can be repurposed to be fully autonomous (with a human master) in fighting the fire without human control.
  
