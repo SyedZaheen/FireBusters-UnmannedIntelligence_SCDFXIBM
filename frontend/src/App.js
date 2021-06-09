@@ -1,15 +1,23 @@
 import React from "react";
-import "./app.css";
-import dashboard from './Dashboard.png'
+import Page1 from "./Page1";
+import Page2 from "./Page2";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 
 function App() {
   return (
-    <>
-      <div className="whole-screen-center">
-        <img src={dashboard} alt="This is the dashboard" style={{objectFit:'fill'}}/>
-      </div>
-    </>
+
+      <Router>
+        <Switch>
+          <Route exact path="/">
+            <Page1 />
+          </Route>
+          <Route path="/dashboard">
+            <Page2 />
+          </Route>
+        </Switch>
+      </Router>
+    
   );
 }
 
