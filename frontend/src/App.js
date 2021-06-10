@@ -1,7 +1,7 @@
 import React from "react";
 import Page1 from "./Page1";
 import Page2 from "./Page2";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import FadeIn from "react-fade-in";
 
 function App() {

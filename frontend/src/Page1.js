@@ -1,8 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import Col from "react-bootstrap/Col";
-import Button from "react-bootstrap/Button";
 
 export default function Page1() {
   return (
@@ -14,7 +12,7 @@ export default function Page1() {
           </h1>
           <p className="subtitle-text text-center mt-5">
             You will be lead to a page with a dashboard for controlling the UFM.
-            You may use the <b style={{ fontWeight: 900 }}>arrow keys</b> of
+            You may use the <b style={{ fontWeight: 900 }}>A, S, W and D keys for moving left, up, down and right respectively</b> of
             your keyboard in order to point the head of the UFM.
  
           </p>
