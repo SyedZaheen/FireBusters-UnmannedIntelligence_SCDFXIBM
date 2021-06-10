@@ -8,6 +8,7 @@ With the pandemic in 2020 bringing about a shortage in the available man-force i
 #### Hoe Jun Leong
 #### Jyotit Kaushal
 #### Lee Jun Jie
+Computer Engineering Graduate currently serving in SCDF
 #### Visshal Natarajan
 
 ## Unmanned Intelligance in a gist
