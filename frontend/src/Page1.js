@@ -1,12 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import FadeIn from "react-fade-in";
+
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 
 export default function Page1() {
   return (
-    <FadeIn transitionDuration="800">
+
       <div className="whole-screen-center">
         <div className="d-flex align-items-center flex-column p-5 border border-white">
           <h1 className="text-center title-text">
@@ -26,6 +26,6 @@ export default function Page1() {
           </Link>
         </div>
       </div>
-    </FadeIn>
+
   );
 }

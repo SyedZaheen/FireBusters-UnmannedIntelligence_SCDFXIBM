@@ -3,29 +3,58 @@ import { useEffect, useState } from "react";
 import Graph from "./Graph.png";
 
 export default function Page2() {
-  let [topPosition, setTop] = useState(400);
-  let [degrees, setDegrees] = useState({top: 0, left: 0})
+  let [topPosition, setTop] = useState(480);
+  let [degrees, setDegrees] = useState({ top: 0, left: 0 });
   let [rightPostion, setRight] = useState(480);
-  useEffect(()=> {
+  const [inControl, setInControl] = useState(true);
+  const [temp, setTemp] = useState(75);
+
+  useEffect(() => {
+    function redo() {
+      setTimeout(() => {
+        let p = Math.random();
+        if (p < 0.2) {
+          setTemp((t) => {
+            let newValue = t + (2 - Math.ceil(Math.random() * 3));
+            return newValue;
+          });
+        }
+        redo();
+      }, 100);
+    }
+    redo();
+  }, []);
+
+  useEffect(() => {
+    document.onkeydown = ({ key }) =>
+      (key === "w") | (key === "a") | (key === "s") | (key === "d") &&
+      setInControl(false);
+    document.onkeyup = ({ key }) =>
+      (key === "w") | (key === "a") | (key === "s") | (key === "d") &&
+      setInControl(true);
+  });
+
+  useEffect(() => {
     setDegrees({
-      right: Math.floor((480-rightPostion)/220 * 30 )
-    })
-  }, [rightPostion, topPosition])
+      right: Math.floor(((480 - rightPostion) / 270) * 30),
+      top: Math.floor((480 - topPosition) / 11),
+    });
+  }, [rightPostion, topPosition]);
   useEffect(() => {
     function keyfunction({ key }) {
       console.log(key, topPosition, rightPostion);
       switch (key) {
         case "w":
-          setTop((t) => (t > 100 ? t - 5 : t));
+          setTop((t) => (t > 40 ? t - 5 : t));
           break;
         case "d":
-          setRight((r) => (r > 260 ? r - 5 : r));
+          setRight((r) => (r > 210 ? r - 5 : r));
           break;
         case "s":
-          setTop((t) => (t < 440 ? t + 5 : t));
+          setTop((t) => (t < 590 ? t + 5 : t));
           break;
         case "a":
-          setRight((r) => (r < 700 ? r + 5 : r));
+          setRight((r) => (r < 750 ? r + 5 : r));
           break;
         default:
           break;
@@ -35,7 +64,7 @@ export default function Page2() {
     return () => document.removeEventListener("keypress", keyfunction);
   }, []);
 
-  return (
+  return (<>
     <div className="d-flex justify-content-between">
       <div className="p-4">
         <div className="details font-weight-bold">
@@ -76,9 +105,47 @@ export default function Page2() {
           <span>Ground Command in-charge:</span>
           <span className="font-weight-normal"> STN 23 ROTA 2 RC</span>
           <br />
+          <span>Outside Temperature:</span>
+          <span
+            className={`font-weight-bold ${
+              temp > 75 ? "text-danger" : "text-success"
+            }`}
+          >
+            {" "}
+            {temp} degrees C
+          </span>
+          <br />
+        </div>
+        <div className="details font-weight-bold mt-5">
+          <p>-- AI Status --</p>
+          <span>Control:</span>
+          <span
+            className={`font-weight-normal font-weight-bolder ${
+              inControl ? "text-danger" : "text-success"
+            }`}
+          >
+            {" "}
+            {inControl ? "FULL AI CONTROL" : "MANUAL HUMAN CONTROL"}
+          </span>
+          <br />
+          <span>Power Supply:</span>
+          <span className="font-weight-normal text-success font-weight-bolder">
+            {" "}
+            500/650 MHh
+          </span>
+          <br />
+          <span>Type:</span>
+          <span className="font-weight-normal"> Industrial Fire</span>
+          <br />
+          <span>Ground Command in-charge:</span>
+          <span className="font-weight-normal"> STN 23 ROTA 2 RC</span>
+          <br />
         </div>{" "}
       </div>
-      <div className=" position-relative">
+      <div className="position-relative pt-4">
+        <h2 className="font-weight-bold text-center">
+          Gyro Horizon Indicator (press ASDW to control!)
+        </h2>
         <img src={Graph} alt="A graph"></img>
         <div
           className="position-absolute d-flex justify-content-center align-items-center rounded-circle border-danger border"
@@ -88,8 +155,20 @@ export default function Page2() {
             top: topPosition,
             right: rightPostion,
           }}
-        >{degrees.right} degrees</div>
+        >
+          <div className="rounded-circle border border-danger p-2 bg-danger"></div>
+          <div
+            className="position-absolute"
+            style={{ fontSize: 12, lineHeight: 0, bottom: 100 }}
+          >
+            <p>x-axis: {degrees.right} degrees</p>
+            <p>y-axis: {degrees.top} degrees</p>
+          </div>
+        </div>
       </div>
     </div>
+    <div className="whole-screen-center">
+
+    </div></>
   );
 }
