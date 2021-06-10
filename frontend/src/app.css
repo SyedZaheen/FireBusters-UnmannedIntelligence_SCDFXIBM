@@ -10,3 +10,20 @@
 .link {
   color: red;
 }
+
+.title-text {
+  font-family: 'Courier New', Courier, monospace;
+  width: 40vw;
+  font-weight: 700;
+}
+
+.subtitle-text {
+  font-family: 'Courier New', Courier, monospace;
+  width: 40vw;
+  font-weight: 200;
+
+}
+
+.details {
+  font-size: 1.5em;
+}
