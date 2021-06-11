@@ -40,7 +40,7 @@ Our idea is to reduce the need for physically deployed manpower to fire emergenc
 
 ## Our Pitch Video
 
-[Pitch Video] (https://www.youtube.com/watch?v=kcHfiDdwXgI)
+With so many cogs and gears in our project, it was of utmost importance to create a pitch video that is able to capture the core of our project both technically as well as our various thought-processes throughout the length of this Hackathon. That said, here's our pitch video for the project **Unmanned Intelligence** on Youtube.
 
 ## The Unmanned Intelligence Architecture with Detailed Solution
 
@@ -100,8 +100,8 @@ We then go on to deploy the model using a service like IBM Watson Studio; AWS Ma
 python train.py --data fire.yaml --cfg yolov5x.yaml --weights '' --batch-size 6
 ```
 For our project we were unable to train this model due to its high complexity to ensure the utmost amount of accuracy but here's a snippet of what your terminal should be looking like when it begins to start training:
-<img src="images/Slide1.jpg" width="600"> 
-<img src="images/Slide2.jpg" width="600">
+<img src="images/Slide1.JPG" width="600"> 
+<img src="images/Slide2.JPG" width="600">
 This deployment can be further customized based on the accuracy required and/or time available to train the model.
 This rather time-consuming step is then followed by the actual detection of the set object (i.e. fire) by using `detect.py` on an unseen image exported into our model and/or streamed live.
 
@@ -119,10 +119,10 @@ Upon succesful training and then deployment of our model, we are now capable of 
 - IBM Cloud
 
 ## Credits
-https://github.com/nationaldronesau/FlirImageExtractor
-https://www.ibm.com/cloud/learn/vmware?utm_medium=OSocial&utm_source=Youtube&utm_content=000005UJ&utm_term=10002434&utm_id=YTDescription-301-Intro-to-VMware-Solutions-LH-VMware-Guide&cm_mmc=OSocial_Youtube-_-Cloud+and+Data+Platform_Cloud+Platform+F2F-_-WW_WW-_-YTDescription-301-Intro-to-VMware-Solutions-LH-VMware-Guide&cm_mmca1=000005UJ&cm_mmca2=10002434
-https://towardsdatascience.com/yolo-v5-object-detection-tutorial-2e607b9013ef
-https://guides.github.com/features/mastering-markdown/
-https://github.com/ai-coodinator/xml_to_textYolo
-https://github.com/ultralytics/yolov5
-https://towardsdatascience.com/early-fire-detection-system-using-deep-learning-and-opencv-6cb60260d54a
+-https://github.com/nationaldronesau/FlirImageExtractor
+-https://www.ibm.com/cloud/learn/vmware?utm_medium=OSocial&utm_source=Youtube&utm_content=000005UJ&utm_term=10002434&utm_id=YTDescription-301-Intro-to-VMware-Solutions-LH--VMware-Guide&cm_mmc=OSocial_Youtube-_-Cloud+and+Data+Platform_Cloud+Platform+F2F-_-WW_WW-_-YTDescription-301-Intro-to-VMware-Solutions-LH-VMware--Guide&cm_mmca1=000005UJ&cm_mmca2=10002434
+-https://towardsdatascience.com/yolo-v5-object-detection-tutorial-2e607b9013ef
+-https://guides.github.com/features/mastering-markdown/
+-https://github.com/ai-coodinator/xml_to_textYolo
+-https://github.com/ultralytics/yolov5
+-https://towardsdatascience.com/early-fire-detection-system-using-deep-learning-and-opencv-6cb60260d54a
