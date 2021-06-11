@@ -91,32 +91,45 @@ For our project, we use the YoloV5 object-detection model, acclaimated for its e
 Our whole procedure including the training and then deploying our AI model using IBM Watson Studio can be easily categorized into some key steps. The first involves sorting out all the pre-requisites required for the project and this involves setting up the required environment in an IDE, installing all the required packages, etc; collecting the dataset(s) required to train our model; setting up the directories in an appropriate order; configuring the YAML files (something that's especially crucial when using yolov5), etc.
 
 In order to set up a working environment for our model, you can simply clone the Yolov5 repository, by running the following command in the terminal:
+
 ```bash
 !git clone https://github.com/ultralytics/yolov5 
 ```
+
 This step is then followed by installing Torch using the *pip install* command shown before to finish setting up our environment. 
 
 The datset would be cloned with the cloned repository but one can easily run the model with any dataset of their choosing. Upon confirming everything is in order, we configure our YAMLs (again already done in this case) to specify your training data, validation data, etc.
 
 We then go on to deploy the model using a service like IBM Watson Studio; AWS Machine Learning, etc. or by simply using the following command in your terminal to run the `python.py` file. 
+
 ```bash
 python train.py --data fire.yaml --cfg yolov5x.yaml --weights '' --batch-size 6
 ```
 For our project we were unable to train this model due to its high complexity to ensure the utmost amount of accuracy but here's a snippet of what your terminal should be looking like when it begins to start training:
+
 <img src="images/Slide1.JPG" width="600"> 
 <img src="images/Slide2.JPG" width="600">
+
 This deployment can be further customized based on the accuracy required and/or time available to train the model.
 We then go on to deploy the model using a service like IBM Watson Studio; AWS Machine Learning, etc. using the `train.py`. This deployment can be further customized based on the accuracy required and/or time available to train the model.
 This rather time-consuming step is then followed by the actual detection of the set object (i.e. fire) by using `detect.py` on an unseen image exported into our model and/or streamed live.
 
 Upon succesful training and then deployment of our model, we are now capable of detecting a fire or several fires in real-time from an unseen footage (as shown below) and/or camera captured using the camera on-board the UMF, and hence fulfilling a crucial part of our solution.
+
 ## Results
 
 <img src="images/Firei.PNG" width="480"> 
 <img src="images/Fireii.PNG" width="480">
+
 Upon succesful training and then deployment of our model, we are now capable of detecting a fire or several fires in real-time from an unseen footage and/or camera captured using the camera on-board the UMF, allowing the operators to fight the fire remotely and much more efficiently. 
-## Impact 
-The automation of UFM's would enable SCDF to reduce the number of professional fire-fighters on the site of fire, thereby minimising the risk of injury. Further, it would help overcome the manpower shortage created due to the unavailability of trained NS Men (COVID-restrictions), thereby enabling SCDF to operate more efficiently by leveraging existing technology. Additionaly, in the long run the automation of UFM's would be in alignmnent with the agenda of making Singapore a smart nation. The 
+
+## Impact and conclusion
+
+The automation of UFM would enable SCDF to reduce the number of professional fire-fighters on the site of fire, thereby minimising the risk of viral spread. Further, it would help overcome the impediments to firefighting such as social distancing, thereby enabling SCDF to operate more efficiently by leveraging existing technology.  
+
+We believe that this solution is a logical step forward in the evolution of SCDF’s firefighting capabilities. Firefighting robots, we believe, were always inevitable; it’s about how using the current infrastructure and solutions, do we gradually bring about that future. We believe that our project is a leap into that future.
+
+## Conclusion
 
 ## Software employed for the solution
 
