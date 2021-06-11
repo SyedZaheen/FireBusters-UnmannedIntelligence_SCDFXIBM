@@ -1,10 +1,18 @@
 # FireBusters-UnmannedIntelligence_SCDFXIBM
 
-With the pandemic in 2020 bringing about a shortage in the available man-force in a majority of the sectors of various industries, our solution uses the power of AI i.e., Unmanned Intelligence to help SCDF in its functions of dealing with fires all around the island by the use of AI and IoT to modify the existing UFM- allowing it to be controlled remotely with a 5:1 man to machine ratio.
+Firefighters are not immune to the trends of Covid-19. Covid has created significant impediments to firefighting operations as well. Social distancing and mask wearing isn't really compatible with operations that need maxiumum efficiency to save lives. It's not possible to remain 1 m apart when lives are at stake.
+
+If only there was a way that firefighters, too, can do their work virtually rather than physically, just like other workplaces where "Work From Home" and remote work is the norm. But that sounds ridiculous - how do you even fight a fire you're not close to?
+
+Introducing: Unmanned Intelligence. The next evolution of SCDF’s fire fighting capabilities, leveraging machine learning, AI, and IoT through the IBM cloud to train completely autonomous machines to fight the fire for us, without needing to physically train and deploy humans to the fire! 
+
+Controlled from a dashboard, these machines are able to fight the fire by themselves, and their human masters can keep an eye on them from a control centre while the robots do their job. Maybe firefighting "remotely" isn't so ridiculous after all!
+
 
 ## Our Team: The FireBusters
 
 #### Syed Mohammed Mosayeeb Al-Hady Zaheen
+An NTU Data Science and AI freshie
 #### Hoe Jun Leong
 #### Jyotit Kaushal
 Freshmore from SUTD with a passion for Machine Learning and AI
@@ -16,7 +24,14 @@ Computer Engineering Graduate currently serving in SCDF
 
 In fire emergency situations that demand urgent action, any delay can mean loss of life and property. The restrictions brought about by COVID-19 onto physically deployed firefighters such as social distancing and even mask-wearing can cause inefficiencies which may hinder their response. In urgent situations firefighters may be forced to forsake some of these measures, which may exacerbate the spread of the virus.
 
-Our idea is to reduce the need for physically deployed manpower to fire emergency situations by repurposing the SCDF Unmanned Firefighting Machine (UFM) to be deployed to fight the fire instead of humans. Through integration with AI and IoT technology and a synergestic combination with from the SCDF Unmanned Aerial Vehicle (UAV), the UFM can be repurposed to be fully autonomous (with a human master) in fighting the fire without human control.
+Our idea is to reduce the need for physically deployed manpower to fire emergency situations by repurposing the SCDF Unmanned Firefighting Machine (UFM) to be deployed to fight the fire instead of humans. Through integration with AI and IoT technology and a synergestic combination with geospatial data gathered from the SCDF Unmanned Aerial Vehicle (UAV) (which is a drone that is employed by SCDF to get a bird's eye view of the incident), the UFM can be repurposed to be fully autonomous (with a human master) in fighting the fire without human control.
+
+#### How it will work in a real fire - step by step
+
+1. When there is a fire call, HQ will deploy the modified UFM to the location.
+2. Once deployed, ground crew will connect the water supply to the UFM, and hand over control to the remote controller.
+3. The remote controller may choose to take manual control, or let the AI fight the fire by itself with minimal intervention
+4. If there is a UAV deployed to the location, the UAV will send geospatial data to the UFM which can use it to map out its surroundings so that it can firefight optimally
 
 ## Our Pitch Video
 
