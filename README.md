@@ -118,3 +118,10 @@ Upon succesful training and then deployment of our model, we are now capable of 
 - IBM Cloud
 
 ## Credits
+https://github.com/nationaldronesau/FlirImageExtractor
+https://www.ibm.com/cloud/learn/vmware?utm_medium=OSocial&utm_source=Youtube&utm_content=000005UJ&utm_term=10002434&utm_id=YTDescription-301-Intro-to-VMware-Solutions-LH-VMware-Guide&cm_mmc=OSocial_Youtube-_-Cloud+and+Data+Platform_Cloud+Platform+F2F-_-WW_WW-_-YTDescription-301-Intro-to-VMware-Solutions-LH-VMware-Guide&cm_mmca1=000005UJ&cm_mmca2=10002434
+https://towardsdatascience.com/yolo-v5-object-detection-tutorial-2e607b9013ef
+https://guides.github.com/features/mastering-markdown/
+https://github.com/ai-coodinator/xml_to_textYolo
+https://github.com/ultralytics/yolov5
+https://towardsdatascience.com/early-fire-detection-system-using-deep-learning-and-opencv-6cb60260d54a
