@@ -56,17 +56,34 @@ pip install PackageName
 
 ## Training the AI
 
-The workflow that goes into creating an object detection model (in our case a fire) is one that can be considered two-fold. While one part involves making our machine/network aware of what the object we want actually looks like and how it may detect it. The second involves actually exporting an image or a video into our network and then running the pre-trained model on the same.
+The workflow that goes into creating an object detection model (in our case a fire) is one that's two-fold. While one part involves making our machine/network aware of what the object we want actually looks like and how it may detect it. The second involves actually exporting an image or a video into our network and then running the pre-trained model on the same.
 
 For our project, we use the YoloV5 object-detection model, acclaimated for its ease of use to do a custom train as well as its customization abilities that allows one to carefully tune the various parameters of the model as and when required.
 
 Our whole procedure including the training and then deploying our AI model using IBM Watson Studio can be easily categorized into some key steps. The first involves sorting out all the pre-requisites required for the project and this involves setting up the required environment in an IDE, installing all the required packages, etc; collecting the dataset(s) required to train our model; setting up the directories in an appropriate order; configuring the YAML files (something that's especially crucial when using yolov5), etc.
-We then go on to deploy the model using a service like IBM Watson Studio; AWS Machine Learning, etc. using the `train.py`. This deployment can be further customized based on the accuracy required and/or time available to train the model.
+
+In order to set up a working environment for our model, you can simply clone the Yolov5 repository, by running the following command in the terminal:
+```bash
+!git clone https://github.com/ultralytics/yolov5 
+```
+This step is then followed by installing Torch using the *pip install* command shown before to finish setting up our environment. 
+
+The datset would be cloned with the cloned repository but one can easily run the model with any dataset of their choosing. Upon confirming everything is in order, we configure our YAMLs (again already done in this case) to specify your training data, validation data, etc.
+
+We then go on to deploy the model using a service like IBM Watson Studio; AWS Machine Learning, etc. or by simply using the following command in your terminal to run the `python.py` file. 
+```bash
+python train.py --data fire.yaml --cfg yolov5x.yaml --weights '' --batch-size 6
+```
+For our project we were unable to train this model due to its high complexity to ensure the utmost amount of accuracy but here's a snippet of what your terminal should be looking like when it begins to start training:
+<img src="">
+This deployment can be further customized based on the accuracy required and/or time available to train the model.
 This rather time-consuming step is then followed by the actual detection of the set object (i.e. fire) by using `detect.py` on an unseen image exported into our model and/or streamed live.
 
-## Results
+Upon succesful training and then deployment of our model, we are now capable of detecting a fire or several fires in real-time from an unseen footage (as shown below) and/or camera captured using the camera on-board the UMF, and hence fulfilling a crucial part of our solution.
 
-Upon succesful training and then deployment of our model, we are now capable of detecting a fire or several fires in real-time from an unseen footage and/or camera captured using the camera on-board the UMF, allowing the operators to fight the fire remotely and much more efficiently. 
+<img src="images/firei.png" width="480"> <img src="images/fireii.png" width="480">
+
+## Conclusion
 
 ## Softwares Employed for the Solution
 
