@@ -100,7 +100,8 @@ We then go on to deploy the model using a service like IBM Watson Studio; AWS Ma
 python train.py --data fire.yaml --cfg yolov5x.yaml --weights '' --batch-size 6
 ```
 For our project we were unable to train this model due to its high complexity to ensure the utmost amount of accuracy but here's a snippet of what your terminal should be looking like when it begins to start training:
-
+<img src="images/Slide1.jpg" width="600"> 
+<img src="images/Slide2.jpg" width="600">
 This deployment can be further customized based on the accuracy required and/or time available to train the model.
 This rather time-consuming step is then followed by the actual detection of the set object (i.e. fire) by using `detect.py` on an unseen image exported into our model and/or streamed live.
 
