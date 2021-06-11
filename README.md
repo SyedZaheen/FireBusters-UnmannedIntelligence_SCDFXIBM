@@ -46,7 +46,7 @@ With so many cogs and gears in our project, it was of utmost importance to creat
 
 <img src="images/Architecture.png" width="720">
 
-*https://docs.google.com/document/d/159HvT_roS5KOp-HkLzXx1kPh5p2cpTCU60tFzk6mu-A/edit?ts=60bdf66d#*
+[Detailed Solution](https://docs.google.com/document/d/159HvT_roS5KOp-HkLzXx1kPh5p2cpTCU60tFzk6mu-A/edit?ts=60bdf66d#)
 
 ## A Proposed Timeline
 
@@ -56,7 +56,7 @@ With so many cogs and gears in our project, it was of utmost importance to creat
 
 #### Live online demo - no installation required!
 
-https://zaheensbucket1.s3.ap-southeast-1.amazonaws.com/SCDF-IBM-Challenge/build/index.html
+[Link to live demo](https://zaheensbucket1.s3.ap-southeast-1.amazonaws.com/SCDF-IBM-Challenge/build/index.html)
 
 #### Run it locally 
 
