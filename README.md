@@ -23,13 +23,13 @@ With so many cogs and gears in our project, it was of utmost importance to creat
 
 ## The Unmanned Intelligence Architecture with Detailed Solution
 
-<img src="Architecture.png" width="720">
+<img src="images/Architecture.png" width="720">
 
 *https://docs.google.com/document/d/159HvT_roS5KOp-HkLzXx1kPh5p2cpTCU60tFzk6mu-A/edit?ts=60bdf66d#*
 
 ## A Proposed Timeline
 
-<img src="Timeline.jpg" width="720">
+<img src="images/Timeline.jpg" width="720">
 
 ## Requirements and Install
 
