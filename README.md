@@ -7,6 +7,7 @@ With the pandemic in 2020 bringing about a shortage in the available man-force i
 #### Syed Mohammed Mosayeeb Al-Hady Zaheen
 #### Hoe Jun Leong
 #### Jyotit Kaushal
+Freshmore from SUTD with a passion for Machine Learning and AI
 #### Lee Jun Jie
 Computer Engineering Graduate currently serving in SCDF
 #### Visshal Natarajan
