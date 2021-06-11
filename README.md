@@ -40,7 +40,7 @@ Our idea is to reduce the need for physically deployed manpower to fire emergenc
 
 ## Our Pitch Video
 
-With so many cogs and gears in our project, it was of utmost importance to create a pitch video that is able to capture the core of our project both technically as well as our various thought-processes throughout the length of this Hackathon. That said, here's our pitch video for the project **Unmanned Intelligence** on Youtube.
+[Pitch Video] (https://www.youtube.com/watch?v=kcHfiDdwXgI)
 
 ## The Unmanned Intelligence Architecture with Detailed Solution
 
