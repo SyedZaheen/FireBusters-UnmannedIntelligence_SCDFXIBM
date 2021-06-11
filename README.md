@@ -11,6 +11,8 @@ Introducing: Unmanned Intelligence. The next evolution of SCDF’s fire fighting
 
 Controlled from a dashboard, these machines are able to fight the fire by themselves, and their human masters can keep an eye on them from a control centre while the robots do their job. Maybe firefighting "remotely" isn't so ridiculous after all!
 
+## Our Team: The FireBusters
+
 #### Syed Mohammed Mosayeeb Al-Hady Zaheen
 An NTU Data Science and AI freshie
 #### Hoe Jun Leong
@@ -20,7 +22,6 @@ Freshmore from SUTD with a passion for Machine Learning and AI
 #### Lee Jun Jie
 Computer Engineering Graduate currently serving in SCDF
 #### Visshal Natarajan
-Freshmore from SUTD with a passion for ideas worth pursuing
 
 ## Unmanned Intelligence in a gist
 
