@@ -16,13 +16,14 @@ Controlled from a dashboard, these machines are able to fight the fire by themse
 #### Syed Mohammed Mosayeeb Al-Hady Zaheen
 An NTU Data Science and AI freshie
 #### Hoe Jun Leong
+An NTU Year 2 Computer Engineering Student
 #### Jyotit Kaushal
 Freshmore from SUTD with a passion for Machine Learning and AI
 #### Lee Jun Jie
 Computer Engineering Graduate currently serving in SCDF
 #### Visshal Natarajan
 
-## Unmanned Intelligance in a gist
+## Unmanned Intelligence in a gist
 
 In fire emergency situations that demand urgent action, any delay can mean loss of life and property. The restrictions brought about by COVID-19 onto physically deployed firefighters such as social distancing and even mask-wearing can cause inefficiencies which may hinder their response. In urgent situations firefighters may be forced to forsake some of these measures, which may exacerbate the spread of the virus.
 
