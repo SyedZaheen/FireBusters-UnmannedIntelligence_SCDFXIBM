@@ -81,8 +81,8 @@ This rather time-consuming step is then followed by the actual detection of the 
 
 Upon succesful training and then deployment of our model, we are now capable of detecting a fire or several fires in real-time from an unseen footage (as shown below) and/or camera captured using the camera on-board the UMF, and hence fulfilling a crucial part of our solution.
 
-<img src="images/firei.PNG" width="480"> 
-<img src="images/fireii.PNG" width="480">
+<img src="images/Firei.PNG" width="480"> 
+<img src="images/Fireii.PNG" width="480">
 
 ## Conclusion
 
