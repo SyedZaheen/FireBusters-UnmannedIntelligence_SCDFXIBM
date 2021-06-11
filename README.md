@@ -44,9 +44,9 @@ With so many cogs and gears in our project, it was of utmost importance to creat
 
 ## The Unmanned Intelligence Architecture with Detailed Solution
 
-<img src="images/Architecture.png" width="720">
-
 [Detailed Solution](https://docs.google.com/document/d/159HvT_roS5KOp-HkLzXx1kPh5p2cpTCU60tFzk6mu-A/edit?ts=60bdf66d#)
+
+<img src="images/Architecture.png" width="720">
 
 ## A Proposed Timeline
 
