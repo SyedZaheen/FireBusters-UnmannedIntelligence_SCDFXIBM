@@ -2,9 +2,15 @@
 
 <img src="images/logo2.png" width="720">
 
+
 Firefighters are not immune to the trends of Covid-19. Covid has created significant impediments to firefighting operations as well. Social distancing and mask wearing isn't really compatible with operations that need maxiumum efficiency to save lives. It's not possible to remain 1 m apart when lives are at stake.
 
-@@ -16,21 +16,19 @@ Controlled from a dashboard, these machines are able to fight the fire by themse
+If only there was a way that firefighters, too, can do their work virtually rather than physically, just like other workplaces where "Work From Home" and remote work is the norm. But that sounds ridiculous - how do you even fight a fire you're not close to?
+
+Introducing: Unmanned Intelligence. The next evolution of SCDF’s fire fighting capabilities, leveraging machine learning, AI, and IoT through the IBM cloud to train completely autonomous machines to fight the fire for us, without needing to physically train and deploy humans to the fire! 
+
+Controlled from a dashboard, these machines are able to fight the fire by themselves, and their human masters can keep an eye on them from a control centre while the robots do their job. Maybe firefighting "remotely" isn't so ridiculous after all!
+
 #### Syed Mohammed Mosayeeb Al-Hady Zaheen
 An NTU Data Science and AI freshie
 #### Hoe Jun Leong
@@ -27,19 +33,19 @@ Our idea is to reduce the need for physically deployed manpower to fire emergenc
 #### How it will work in a real fire - step by step
 
 1. When there is a fire call, HQ will deploy the modified UFM to the location.
-@@ -41,37 +39,18 @@ Our idea is to reduce the need for physically deployed manpower to fire emergenc
+2. Once deployed, ground crew will connect the water supply to the UFM, and hand over control to the remote controller.
+3. The remote controller may choose to take manual control, or let the AI fight the fire by itself with minimal intervention
+4. If there is a UAV deployed to the location, the UAV will send geospatial data to the UFM which can use it to map out its surroundings so that it can firefight optimally
+
 ## Our Pitch Video
 
-With so many cogs and gears in our project, it was of utmost importance to create a pitch video that is able to capture the core of our project both technically as well as our various thought-processes throughout the length of this Hackathon. That said, here's our pitch video for the project **Unmanned Intelligence** on Youtube.
-https://youtu.be/kcHfiDdwXgI
+With so many cogs and gears in our project, it was of utmost importance to create a pitch video that is able to capture the core of our project both technically as well as our various thought-processes throughout the length of this Hackathon. That said, here's our pitch video for the project [**Unmanned Intelligence** on Youtube.](https://youtu.be/kcHfiDdwXgI)
 
 ## The Unmanned Intelligence Architecture with Detailed Solution
 
 [Detailed Solution](https://docs.google.com/document/d/159HvT_roS5KOp-HkLzXx1kPh5p2cpTCU60tFzk6mu-A/edit?ts=60bdf66d#)
 
-<img src="images/Architecture.png" width="720">
-
-*https://docs.google.com/document/d/159HvT_roS5KOp-HkLzXx1kPh5p2cpTCU60tFzk6mu-A/edit?ts=60bdf66d#*
+<img src="images/Architecture.png" width="720"
 
 ## A Proposed Timeline
 
@@ -65,10 +71,13 @@ npm start
 ```
 The local server should start on port 3000
 
-## Requirements and Install
+## Running our neural network - Requirements and Install
 
 One of the major parts of our solution involves training and thereby dealing with a neural network. This means that for running our program on one's own computer and/or server would require one to install a number of essentiall packages and/or libraries like `pytorch`, `tensorboard`, `argparse`, `logging`, etc. There however, is no need to proactively fret over these dependencies since our code should automatically list everything uninstalled upon running. They can then be installed using the terminal window using the following command on both Windows and MacOS:
-@@ -81,48 +60,26 @@ pip install PackageName
+
+```bash
+pip install PackageName
+```
 
 ## Training the AI
 
@@ -109,14 +118,15 @@ The automation of UFM's would enable SCDF to reduce the number of professional f
 
 ## Conclusion
 
-## Softwares Employed for the Solution
+## Software employed for the solution
 
 - IBM Watson Studio
 - ROS
 - IBM Cloud
 
-- Amazon S3 Storage
+- Amazon S3
 - React Web Application
+
 ## Credits
 -https://github.com/nationaldronesau/FlirImageExtractor
 -https://www.ibm.com/cloud/learn/vmware?utm_medium=OSocial&utm_source=Youtube&utm_content=000005UJ&utm_term=10002434&utm_id=YTDescription-301-Intro-to-VMware-Solutions-LH--VMware-Guide&cm_mmc=OSocial_Youtube-_-Cloud+and+Data+Platform_Cloud+Platform+F2F-_-WW_WW-_-YTDescription-301-Intro-to-VMware-Solutions-LH-VMware--Guide&cm_mmca1=000005UJ&cm_mmca2=10002434
