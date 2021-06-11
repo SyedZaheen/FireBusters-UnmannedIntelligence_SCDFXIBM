@@ -1,5 +1,7 @@
 # FireBusters-UnmannedIntelligence_SCDFXIBM
 
+<img src="images/logo2.png" width="720">
+
 Firefighters are not immune to the trends of Covid-19. Covid has created significant impediments to firefighting operations as well. Social distancing and mask wearing isn't really compatible with operations that need maxiumum efficiency to save lives. It's not possible to remain 1 m apart when lives are at stake.
 
 If only there was a way that firefighters, too, can do their work virtually rather than physically, just like other workplaces where "Work From Home" and remote work is the norm. But that sounds ridiculous - how do you even fight a fire you're not close to?
@@ -26,6 +28,8 @@ In fire emergency situations that demand urgent action, any delay can mean loss 
 
 Our idea is to reduce the need for physically deployed manpower to fire emergency situations by repurposing the SCDF Unmanned Firefighting Machine (UFM) to be deployed to fight the fire instead of humans. Through integration with AI and IoT technology and a synergestic combination with geospatial data gathered from the SCDF Unmanned Aerial Vehicle (UAV) (which is a drone that is employed by SCDF to get a bird's eye view of the incident), the UFM can be repurposed to be fully autonomous (with a human master) in fighting the fire without human control.
 
+<img src="images/UFM2.png" width="720">
+
 #### How it will work in a real fire - step by step
 
 1. When there is a fire call, HQ will deploy the modified UFM to the location.
@@ -46,6 +50,26 @@ With so many cogs and gears in our project, it was of utmost importance to creat
 ## A Proposed Timeline
 
 <img src="images/Timeline.jpg" width="720">
+
+## Live demo of dashboard
+
+#### Live online demo - no installation required!
+
+https://zaheensbucket1.s3.ap-southeast-1.amazonaws.com/SCDF-IBM-Challenge/build/index.html
+
+#### Run it locally 
+
+Step 1: Install NPM from https://www.npmjs.com/get-npm
+
+Step 2: Clone the directory "frontend" from this repository and go into the command line 
+
+Step 3:
+
+```bash
+npm install
+npm start
+```
+The local server should start on port 3000
 
 ## Requirements and Install
 
