@@ -1,8 +1,6 @@
 # FireBusters-UnmannedIntelligence_SCDFXIBM
 
 <img src="images/logo2.png" width="720">
-<img width="965" alt="Screenshot 2021-06-11 at 11 01 44 AM" src="https://user-images.githubusercontent.com/62633038/121624623-70bfd700-caa4-11eb-93fc-3b13ef7ecb4a.png">
-ages.githubusercontent.com/62633038/121624491-36eed080-caa4-11eb-9b5d-282a42705a74.png">
 
 Firefighters are not immune to the trends of Covid-19. Covid has created significant impediments to firefighting operations as well. Social distancing and mask wearing isn't really compatible with operations that need maxiumum efficiency to save lives. It's not possible to remain 1 m apart when lives are at stake.
 
@@ -19,7 +17,6 @@ Computer Engineering Graduate currently serving in SCDF
 Freshmore from SUTD with a passion for ideas worth pursuing
 
 ## Unmanned Intelligence in a gist
-## Unmanned Intelligance in a gist
 
 In fire emergency situations that demand urgent action, any delay can mean loss of life and property. The restrictions brought about by COVID-19 onto physically deployed firefighters such as social distancing and even mask-wearing can cause inefficiencies which may hinder their response. In urgent situations firefighters may be forced to forsake some of these measures, which may exacerbate the spread of the virus.
 
