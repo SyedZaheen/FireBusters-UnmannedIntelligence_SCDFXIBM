@@ -45,7 +45,7 @@ With so many cogs and gears in our project, it was of utmost importance to creat
 
 ## The Unmanned Intelligence Architecture with Detailed Solution
 
-[Detailed Solution](https://docs.google.com/document/d/159HvT_roS5KOp-HkLzXx1kPh5p2cpTCU60tFzk6mu-A/edit?ts=60bdf66d#)
+#### [Full Detailed Solution Here](https://docs.google.com/document/d/159HvT_roS5KOp-HkLzXx1kPh5p2cpTCU60tFzk6mu-A/edit?ts=60bdf66d#)
 
 <img src="images/Architecture.png" width="720">
 
@@ -81,7 +81,7 @@ One of the major parts of our solution involves training and thereby dealing wit
 pip install PackageName
 ```
 
-## Training the AI
+#### Training the AI
 
 The workflow that goes into creating an object detection model (in our case a fire) is one that's two-fold. While one part involves making our machine/network aware of what the object we want actually looks like and how it may detect it. The second involves actually exporting an image or a video into our network and then running the pre-trained model on the same.
 The workflow that goes into creating an object detection model (in our case a fire) is one that can be considered two-fold. While one part involves making our machine/network aware of what the object we want actually looks like and how it may detect it. The second involves actually exporting an image or a video into our network and then running the pre-trained model on the same.
@@ -116,7 +116,7 @@ This rather time-consuming step is then followed by the actual detection of the 
 
 Upon succesful training and then deployment of our model, we are now capable of detecting a fire or several fires in real-time from an unseen footage (as shown below) and/or camera captured using the camera on-board the UMF, and hence fulfilling a crucial part of our solution.
 
-## Results
+#### Results
 
 <img src="images/Firei.PNG" width="480"> 
 <img src="images/Fireii.PNG" width="480">
@@ -128,8 +128,6 @@ Upon succesful training and then deployment of our model, we are now capable of 
 The automation of UFM would enable SCDF to reduce the number of professional fire-fighters on the site of fire, thereby minimising the risk of viral spread. Further, it would help overcome the impediments to firefighting such as social distancing, thereby enabling SCDF to operate more efficiently by leveraging existing technology.  
 
 We believe that this solution is a logical step forward in the evolution of SCDF’s firefighting capabilities. Firefighting robots, we believe, were always inevitable; it’s about how using the current infrastructure and solutions, do we gradually bring about that future. We believe that our project is a leap into that future.
-
-## Conclusion
 
 ## Software employed for the solution
 
