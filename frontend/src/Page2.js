@@ -1,6 +1,8 @@
 import React from "react";
 import { useEffect, useState } from "react";
 import Graph from "./Graph.png";
+import Slide from "./Slide2.png";
+import Thermal from "./maxresdefault.jpg";
 import { useMediaPredicate } from "react-media-hook";
 
 export default function Page2() {
@@ -22,7 +24,7 @@ export default function Page2() {
           });
         }
         redo();
-      }, 100);
+      }, 200);
     }
     redo();
   }, []);
@@ -44,7 +46,6 @@ export default function Page2() {
   }, [rightPostion, topPosition]);
   useEffect(() => {
     function keyfunction({ key }) {
-      console.log(key, topPosition, rightPostion);
       switch (key) {
         case "w":
           setTop((t) => (t > 30 ? t - 5 : t));
@@ -197,7 +198,28 @@ export default function Page2() {
           </div>
         </div>
       </div>
-      <div className="whole-screen-center"></div>
+      <div
+        style={{ height: "100vh" }}
+        className="d-flex align-items-center justify-content-center"
+      >
+        <div className="p-5">
+          <h4 className="title-text text-center">Visual spectrum camera</h4>
+          <img
+            src={Slide}
+            alt="A fire"
+            style={{ width: 800, height: 400, margin: 20 }}
+          />
+        </div>
+        <div>
+          <h4 className="title-text ml-2">Thermal camera</h4>
+
+          <img
+            src={Thermal}
+            alt="A fire"
+            style={{ width: 300, height: 400, margin: 20 }}
+          />
+        </div>
+      </div>
     </>
   );
 }
