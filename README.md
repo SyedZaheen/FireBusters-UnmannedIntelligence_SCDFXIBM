@@ -22,6 +22,7 @@ Freshmore from SUTD with a passion for Machine Learning and AI
 #### Lee Jun Jie
 Computer Engineering Graduate currently serving in SCDF
 #### Visshal Natarajan
+Freshmore from SUTD with a passion for ideas worth pursuing.
 
 ## Unmanned Intelligence in a gist
 
@@ -46,7 +47,7 @@ With so many cogs and gears in our project, it was of utmost importance to creat
 
 [Detailed Solution](https://docs.google.com/document/d/159HvT_roS5KOp-HkLzXx1kPh5p2cpTCU60tFzk6mu-A/edit?ts=60bdf66d#)
 
-<img src="images/Architecture.png" width="720"
+<img src="images/Architecture.png" width="720">
 
 ## A Proposed Timeline
 
