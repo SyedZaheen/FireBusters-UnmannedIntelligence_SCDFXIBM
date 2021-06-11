@@ -118,8 +118,6 @@ Upon succesful training and then deployment of our model, we are now capable of 
 ## Impact 
 The automation of UFM's would enable SCDF to reduce the number of professional fire-fighters on the site of fire, thereby minimising the risk of injury. Further, it would help overcome the manpower shortage created due to the unavailability of trained NS Men (COVID-restrictions), thereby enabling SCDF to operate more efficiently by leveraging existing technology. Additionaly, in the long run the automation of UFM's would be in alignmnent with the agenda of making Singapore a smart nation. The 
 
-## Conclusion
-
 ## Software employed for the solution
 
 - IBM Watson Studio
