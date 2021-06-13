@@ -16,7 +16,7 @@ Controlled from a dashboard, these machines are able to fight the fire by themse
 #### Syed Mohammed Mosayeeb Al-Hady Zaheen
 An NTU Data Science and AI freshie
 #### Hoe Jun Leong
-An NTU Year 2 Computer Engineering Student
+An NUS Year 1 Computer Engineering Student
 #### Jyotit Kaushal
 Freshmore from SUTD with a passion for Machine Learning and AI
 #### Lee Jun Jie
